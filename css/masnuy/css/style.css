@@ -341,8 +341,8 @@ img { max-width: 100%; height: auto; }
         #navigation li a { padding: 8px; font-size: 90%;}
 	.column-bottom-right { 
 		display: flex;
-		justify-content: flex-end; /* moves content to the right */
-		align-items: flex-end;     /* moves content to the bottom */
+		justify-content: flex-end;
+		align-items: flex-end; 
 		box-sizing: border-box;
 	}
 	#sidebar { display: none; }

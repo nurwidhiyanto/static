@@ -261,65 +261,63 @@ video {
  }
  #lp h3 { padding: 0;}
 .posts { 
-  margin-left: 33.6%; /* Space for sidebar */
-  flex: 1;
-  display: flex;
-  flex-direction: column; /* Stack posts vertically */
-  overflow-y: auto; /* Vertical scroll */
-  height: 100vh;
-  scroll-behavior: smooth;
-  background: #fff;
-  padding:;
+	margin-left: 33.6%; /* Space for sidebar */
+	flex: 1;
+	display: flex;
+	flex-direction: column; /* Stack posts vertically */
+	height: 100vh;
+	scroll-behavior: smooth;
+	background: #fff;
 }
 .post { 
-  flex: 0 0 auto;
-  min-width: 300px;
-  box-sizing: border-box;
-  padding: 4.6em 5em 4.6em 5em;
+	flex: 0 0 auto;
+	min-width: 300px;
+	box-sizing: border-box;
+	padding: 4.6em 5em 4.6em 5em;
 }
 
 .post-column {
-    display: flex; /* make post a flex container */
-    flex-direction: row; /* horizontal layout for columns */
-    flex: 0 0 auto;
-    min-width: 300px;
-    box-sizing: border-box;
-    gap: 5%; /* optional spacing between columns */
-    padding: 0 0 5% 0;
+	display: flex; /* make post a flex container */
+	flex-direction: row; /* horizontal layout for columns */
+	flex: 0 0 auto;
+	min-width: 300px;
+	box-sizing: border-box;
+	gap: 5%; /* optional spacing between columns */
+	padding: 0 0 5% 0;
 }
 
 .column1 {
-    flex: 1; /* takes 50% of space, or adjust as needed */
+	flex: 1; /* takes 50% of space, or adjust as needed */
 }
 
 .column2 {
-    flex: 1; /* takes 50% of space */
-    display: flex; /* make column2 a flex container if it has subcolumns */
-    flex-direction: column; /* stack subcolumns vertically */
-    gap: 1em;
+	flex: 1; /* takes 50% of space */
+	display: flex; /* make column2 a flex container if it has subcolumns */
+	flex-direction: column; /* stack subcolumns vertically */
+	gap: 1em;
 }
 
 /* If you want column2 to be split into two sub-columns */
 .column2 .column2a, 
 .column2 .column2b {
-    flex: 1; /* split equally */
-    background-color: #fff;
-    padding: 0.5em;
-    border: 1px solid #ccc;
+	flex: 1; /* split equally */
+	background-color: #fff;
+	padding: 0.5em;
+	border: 1px solid #ccc;
 }
 
 .column-bottom-left {
-    display: flex;            /* make it a flex container */
-    justify-content: flex-start; /* horizontal alignment (left) */
-    align-items: flex-end;    /* vertical alignment (bottom) */
-    box-sizing: border-box;
+	display: flex;            /* make it a flex container */
+	justify-content: flex-start; /* horizontal alignment (left) */
+	align-items: flex-end;    /* vertical alignment (bottom) */
+	box-sizing: border-box;
 }
 
 .column-bottom-right {
-    display: flex;            /* make it a flex container */
-    justify-content: flex-start; /* horizontal alignment (left) */
-    align-items: flex-end;    /* vertical alignment (bottom) */
-    box-sizing: border-box;
+	display: flex;            /* make it a flex container */
+	justify-content: flex-start; /* horizontal alignment (left) */
+	align-items: flex-end;    /* vertical alignment (bottom) */
+	box-sizing: border-box;
 }
 
 
@@ -329,11 +327,11 @@ video {
 img { max-width: 100%; height: auto; }
 
 /* --- Responsive Layout --- */
-@media (max-width: 1350px) { .post { /* width: 29%; max post width */ } }
-@media (max-width: 1024px) { .posts { flex: 1 1 100%; } #sidebar { flex: 1 1 100%; padding-left: 0; margin-top: 2rem; } .post-title { font-size: 1.75rem; } }
+@media (max-width: 1350px) { #content { display: block; } .posts { flex: 1 1 100%; margin: 0; } #sidebar { flex: 1 1 100%; padding: 0; margin-top: 2rem; margin: 0; width: 100%; height: 15%; position: relative; } .post { padding: 3% 2%; } }
+@media (max-width: 1024px) { .post-title { font-size: 1.75rem; } }
 @media (max-width: 800px) { .posts { column-count: 1; } #main-menu { position: relative; } .logo { width: 100%; margin: 0; text-align: left; } #navigation { float: none; font-family: 'Hind', sans-serif; text-align: left; margin-top: 10px; } #navigation li { float: none; display: inline; line-height: 60px; margin: 0 2%; } #navigation li a { padding: 1%; font-size: 90%; } .single .post, .single .post-content, .single .post-head, .single .post-content p { width: 100%; margin: 0; padding: 0; } .single .post-head { padding-bottom: 15%; } .single .post-head .post-title { font-size: 200%; padding-bottom: 5%; } .single .post-title { font-size: 100%; text-align: left; padding: 5% 0; } }
 @media (max-width: 768px) { 
-        #content { flex-direction: column; padding: 0 5%; width: 90%; }
+        #content { flex-direction: column; padding: 0; width: 100%; }
         .post-title { font-size: 1.5rem; text-align: left; }
         #content .about-img { display: block; margin: 0 auto 40px; }
         #content .logo { font-size: 1.5em; width: 100%; text-align: left; float: none; }

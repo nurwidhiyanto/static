@@ -327,7 +327,7 @@ video {
 img { max-width: 100%; height: auto; }
 
 /* --- Responsive Layout --- */
-@media (max-width: 1350px) { #content { display: block; } .posts { flex: 1 1 100%; margin: 0; } .post { padding: 10%; } #sidebar { flex: 1 1 100%; padding: 0; margin-top: 2rem; margin: 0; width: 100%; height: 15%; position: relative; }  }
+@media (max-width: 1350px) { body { overflow-x: hidden; } #content { display: block; } .posts { flex: 1 1 100%; margin: 0; } .post { padding: 10% 5%; } #sidebar { flex: 1 1 100%; padding: 0; margin-top: 2rem; margin: 0; width: 100%; height: 15%; position: relative; }  }
 @media (max-width: 1024px) { .post { padding: 5%; } .post-title { font-size: 1.75rem; } }
 @media (max-width: 800px) { .posts { column-count: 1; } #main-menu { position: relative; } .logo { width: 100%; margin: 0; text-align: left; } #navigation { float: none; font-family: 'Hind', sans-serif; text-align: left; margin-top: 10px; } #navigation li { float: none; display: inline; line-height: 60px; margin: 0 2%; } #navigation li a { padding: 1%; font-size: 90%; } .single .post, .single .post-content, .single .post-head, .single .post-content p { width: 100%; margin: 0; padding: 0; } .single .post-head { padding-bottom: 15%; } .single .post-head .post-title { font-size: 200%; padding-bottom: 5%; } .single .post-title { font-size: 100%; text-align: left; padding: 5% 0; } }
 @media (max-width: 768px) { 

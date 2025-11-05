@@ -200,6 +200,9 @@ h1, h2, h3, h4, h5, h6							{ color: #262626; }
 /* Sidebar
 ------------------------------------------------------------------------------------*/
 #sidebar {
+        background:
+        linear-gradient(rgba(255, 192, 203, 0.4), rgba(0, 0, 0, 0.4)),
+        url("https://raw.githubusercontent.com/nurwidhiyanto/blog.masnuy/refs/heads/main/images/539033783_18531550846031824_783453455278455513_n.jpg") top left / cover no-repeat;
 }
 .sidebar-footer {
 	position: absolute;
@@ -261,10 +264,6 @@ video {
         background: #f2f2f2;
         border-right: 1px solid #ccc;
         overflow-y: auto; /* If sidebar content gets tall */
-        background:
-        linear-gradient(rgba(255, 192, 203, 0.4), rgba(0, 0, 0, 0.4)),
-        url("http://localhost.lan/blog.masnuy/images/539033783_18531550846031824_783453455278455513_n.jpg") top left / cover no-repeat;
-
  }
  #lp h3 { padding: 0;}
 .posts { 

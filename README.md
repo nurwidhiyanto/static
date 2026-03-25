@@ -1,8 +1,6 @@
 ## About
 
-This repository contains materials for several of my web pages, including my blog, profile, and other related sites.  
-It serves as a storage space for shared files such as templates, assets, and other resources used across my web pages.  
-There's not much to see here.
+this is where i store my static files for my few websties.
 
 ## Disclaimer
 

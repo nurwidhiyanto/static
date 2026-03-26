@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6									{ }
 /* Header
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #navbar											{ display: none; }
-#side-bg										{ height: 10px; left: 0; top: 0; background-image: linear-gradient(180deg, hsla(48, 70%, 78%, .1), hsla(48, 70%, 78%, .1)), url(../images/bg.png); background-position: 0px 0px, -590px 0px; background-size:auto, 617px; width: 100%; }
+#side-bg										{ height: 10px; left: 0; top: 0; background-image: linear-gradient(180deg, hsla(48, 70%, 78%, .1), hsla(48, 70%, 78%, .1)), url("../../images/bg.png"); background-position: 0px 0px, -590px 0px; background-size:auto, 617px; width: 100%; }
 
 /* menu
 -----------------------------*/

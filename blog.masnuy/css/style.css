@@ -6,6 +6,7 @@ url: http://blog.masnuy.com
 Version: 2025
 
 */
+@import url("http://localhost.lan/github-public/blog.masnuy/css/header.css");
 :root {
   /* Base */
   --black: #000000; --white: #ffffff; --warm-white: #faf8f7; --gray-900: #333333; --gray-700: #696969; --gray-500: #999999; --gray-300: #dde0e3; --gray-200: #dadbe3; --gray-100: #afb0bb;

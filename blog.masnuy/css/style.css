@@ -191,7 +191,7 @@ input:focus								{ border-color: #AFB0BB; }
 
 /* Single
 -----------------------------*/
-.single									{ width: 143% !important; padding: 0 ; margin: 0 auto; float: none; }
+.single									{ width: 100%; padding: 0 ; margin: 0 auto; float: none; }
 .single .post-image							{ display: none; width: 100%; }
 .single .post-image img							{ width: calc(100% + 26.7%); width: calc(100% + 20%); margin-left: 0; }
 .single .post-head							{ margin: 0; }

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: EpicRide;
+    src: url("../fonts/epicRide.ttf") format("truetype");
+}
+@font-face {
+    font-family: KabutHitam;
+    src: url("../fonts/KabutHitam.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'hw1';
+  src: url('../fonts/hw1.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'caveatBold';
+  src: url('../fonts/caveatBold.ttf') format("truetype");
+}

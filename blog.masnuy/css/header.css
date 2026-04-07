@@ -2,7 +2,9 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* menu
 -----------------------------*/
-#main-menu										{ margin: 0 auto; border-bottom: 1px solid #EEE; }
+#main-menu										{ margin: 0 auto; background-color: rgba(247, 242, 238, 1); }
+#wmain-menu										{ padding: 0; width: 100%; }
+
 
 #navigation										{ float: left; font-family: 'Hind', sans-serif; }
 #navigation li										{ float: left; line-height: 60px; }
@@ -13,7 +15,7 @@
 .logo											{ font-size: 2em; line-height: 60px; margin: 0 3% 0 0; float: left; font-family: 'Montserrat', sans-serif; }
 .logo a											{ color: #333; }
 .logo a:hover										{ text-decoration: none; }
-.logo span										{ opacity: 0.2; font-weight: 200; }
+.logo span										{/* opacity: 0.2; */font-weight: 200;}
 .search-top										{ float: right !important; display: none !important; }
 .search-top input									{ width: 90%; padding: 5%; border-radius: 3px; border: none; background: rgba(255,255,255,.1); }
 .search-top input:focus									{ border-color: none; outline: none; outline-color: none; outline-style: none; outline-width: none; }

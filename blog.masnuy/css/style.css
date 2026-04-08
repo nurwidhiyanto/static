@@ -109,8 +109,9 @@ h1, h2, h3, h4, h5, h6									{ }
 .hidden											{ display: none; }
 
 /* css Uyeee! ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-#wrapper, #content								{margin: 3em auto;padding: 2% 4%;width: 92%;max-width: 1200px;}
-#menu-wrapper										{margin: 0 auto;padding: 3em 4%;width: 92%;max-width: 1200px;}
+#content, #menu-wrapper, .footerCopy							{ margin: 0 auto; width: 92%; max-width: 1200px; }
+#content										{ padding: 2% 4%; margin: 3em auto; }
+#menu-wrapper, .footerCopy								{ margin: 0 auto; padding: 3em 4%; }
 .posts											{ width: 70%; float: left;}
 
 /* Header
@@ -311,5 +312,5 @@ h3#respond								{ text-align: center; margin: 0 0 10px 0; }
 
 /* footer
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-#footer									{ display: none; width: 100%; margin: 20px auto; }
+#footer									{ width: 100%; margin: 0 auto; }
 #copy p									{ text-align: center; }

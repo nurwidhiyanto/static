@@ -86,7 +86,7 @@ ul											{ list-style: none; }
 a											{ text-decoration: none; outline: none; }
 a:hover											{ text-decoration: underline; cursor: pointer; }
 h1, h2											{ word-wrap: break-word; line-height: normal; /* font-family: Georgia, Times, "Times New Roman", serif; */ }
-h3											{ padding: 15px 0 0.3em; }
+h3											{ font-size: 1.1rem; padding: 15px 0 0.3em; }
 p											{ margin: 0 0 10px; }
 hr											{ border: none; border-bottom: 1px solid #DDE0E3; height: 1px; margin: 3em 0; width: 100%; }
 blockquote										{ margin: 0 0 21px 0; padding: 5px 0 5px 20px; font: italic 14px/21px Georgia, "Times New Roman", Times, serif; }

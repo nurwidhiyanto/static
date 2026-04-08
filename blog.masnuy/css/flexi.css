@@ -20,7 +20,7 @@ img { max-width: 100%; height: auto; }
         .post-title { font-size: 1.75rem; }
 }
 @media (max-width: 800px) {
-        #content { margin: 0 auto; padding: 0 4%; }
+        #content {/* margin: 0 auto; *//* padding: 0 4%; */}
         .posts { column-count: 1; width: 100%; }
         #sidebar { flex: 1 1 100%; width: 100%; } 
         #main-menu { position: relative; width: 90%; padding: 30px 5% 30px; }
@@ -39,7 +39,7 @@ img { max-width: 100%; height: auto; }
         #comments-block .avatar-image-container	{ display: none; }
 }
 @media (max-width: 768px) {
-        #content { flex-direction: column; padding: 0 5%; width: 90%; }
+        #content {flex-direction: column;/* padding: 0 5%; */width: 90%;}
         .post-title { font-size: 1.5rem; text-align: left; }
         #content-box .post:first-child .post-title { font-size: 200%; font-weight: bolder; }
         .logo { width: 100%; font-size: 300%; text-align: left; float: none; }

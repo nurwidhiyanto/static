@@ -235,9 +235,11 @@ input:focus								{ border-color: #AFB0BB; }
 .single img.big-img							{ width: calc(100% + 66%); margin-left: -33%; margin-right: -33%; }
 .single .post-content p {
     margin: 0 0 2em 0;
-    padding: 0 10%;
 }
-.single .meta-labels p							{  }
+.single .post-content p,
+.single .post-content h3,
+.single .post-content ul,
+									{ padding: 0 10%; }
 
 
 

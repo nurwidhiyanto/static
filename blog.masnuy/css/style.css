@@ -109,9 +109,11 @@ h1, h2, h3, h4, h5, h6									{ }
 .hidden											{ display: none; }
 
 /* css Uyeee! ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-#content, #menu-wrapper, .footerCopy							{ margin: 0 auto; width: 92%; max-width: 1200px; }
+#content, #menu-wrapper, .footerCopy, .single, #page, #h-title, #footer,
+#single .photo .post-image, #single .photo .caption					{ margin: 0 auto; }
+#content, #menu-wrapper, .footerCopy							{ width: 92%; max-width: 1200px; }
 #content										{ padding: 2% 4%; margin: 3em auto; }
-#menu-wrapper, .footerCopy								{ margin: 0 auto; padding: 3em 4%; }
+#menu-wrapper, .footerCopy								{ padding: 3em 4%; }
 .posts											{ width: 70%; float: left;}
 
 /* Header
@@ -225,7 +227,7 @@ input:focus								{ border-color: #AFB0BB; }
 
 /* Single
 ----------------------------------------------------------*/
-.single									{ width: 100%; padding: 0 ; margin: 0 auto; float: none; }
+.single									{ width: 100%; padding: 0 ; float: none; }
 .single .post-image							{ display: none; width: 100%; }
 .single .post-image img							{ width: calc(100% + 26.7%); width: calc(100% + 20%); margin-left: 0; }
 .single .post-head							{ margin: 0; }
@@ -259,9 +261,9 @@ input:focus								{ border-color: #AFB0BB; }
 /* single photo
 -------------------------------*/
 #single .photo								{  }
-#single .photo .post-image						{ max-width: 960px; margin: 0 auto; }
+#single .photo .post-image						{ max-width: 960px; }
 #single .post .post-container .post-image img				{ width: 100% !important; }
-#single .photo .caption							{ width: 600px; margin: 0 auto; padding: 30px 0; }
+#single .photo .caption							{ width: 600px; padding: 30px 0; }
 #single .photo .caption p {
     color: #7F8C8D;
     font-size: 20px;
@@ -297,12 +299,12 @@ h3#respond								{ text-align: center; margin: 0 0 10px 0; }
 
 /* page
 -------------------------------*/
-#page									{ width: 100%; margin: 0 auto; }
+#page									{ width: 100%; }
 
 .about-p								{  }
 #awesome_video								{ position: absolute; top: 60px; left: 0; width: 100%; }
 
-#h-title								{ padding: 100px 0 0 0; margin: 0 auto; }
+#h-title								{ padding: 100px 0 0 0; }
 #h-title a								{ color: #FFF; }
 #h-title h1								{ font-size: 500%; }
 #h-title h1 a								{ background: #262626; padding: 5px; }
@@ -312,5 +314,5 @@ h3#respond								{ text-align: center; margin: 0 0 10px 0; }
 
 /* footer
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-#footer									{ width: 100%; margin: 0 auto; }
+#footer									{ width: 100%; }
 #copy p									{ text-align: center; }

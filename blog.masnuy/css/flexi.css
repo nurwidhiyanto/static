@@ -30,7 +30,8 @@ img { max-width: 100%; height: auto; }
         #navigation li a { padding: 0 10px; font-size: 90%; }
         #navigation li:first-child a { padding: 0 10px 0 0; font-size: 90%; }
         .single .post, .single .post-content, .single .post-head, .single .post-content p { width: 100%; margin: 0; padding: 0; }
-        .single .post-head { padding-bottom: 10%; }
+        .single .post-content p { width: 100%; margin: 0; padding: 0 0 2em 0; }
+        .single .post-head {padding-bottom: 2em;}
         .single .post-title { font-size: 2.5em; text-align: left; padding: 0 0 2% 0; }
         .single .post-meta { position: relative; }
         .single .post-meta time, .single .post-labels a, .single p a { display: inline; }
@@ -42,6 +43,9 @@ img { max-width: 100%; height: auto; }
         #content {flex-direction: column;/* padding: 0 5%; */width: 90%;}
         .post-title { font-size: 1.5rem; text-align: left; }
         #content-box .post:first-child .post-title { font-size: 200%; font-weight: bolder; }
+	.single .post-content h2 { padding: 0; }
+	.single .post-content h3 { padding: 0.5em 0; }
+	.single .post-content ul { padding: 0 0 1.3em 0; }
         .logo { width: 100%; font-size: 300%; text-align: left; float: none; }
         #navigation { text-align: left; float: none; }
         #navigation li { display: inline-block; margin: 0 5px 0 0; float: none; }

@@ -222,7 +222,7 @@ input:focus								{ border-color: #AFB0BB; }
 
 .single .post-meta							{ position: absolute; line-height: 230%; text-align: left; }
 .single .post-meta time,
-.single .post-labels a,
+.single .meta-labels a,
 .single p a								{ display: block; font-size: 100%; line-height: 170%; }
 .single .post-meta .meta-time						{ margin: 0 0 1em 0; }
 .single .post-meta .meta-author						{ display: none; }
@@ -237,7 +237,7 @@ input:focus								{ border-color: #AFB0BB; }
     margin: 0 0 2em 0;
     padding: 0 10%;
 }
-.single .post-labels p							{  }
+.single .meta-labels p							{  }
 
 
 

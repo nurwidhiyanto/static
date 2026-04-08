@@ -224,7 +224,7 @@ input:focus								{ border-color: #AFB0BB; }
 .single .post-meta time,
 .single .post-labels a,
 .single p a								{ display: block; font-size: 100%; line-height: 170%; }
-.single .post-meta .meta-time						{ margin: 0 1em 0 0; }
+.single .post-meta .meta-time						{ margin: 0 0 1em 0; }
 .single .post-meta .meta-author						{ display: none; }
 
 .single .post-content							{ padding: 0 0 0 25%; }

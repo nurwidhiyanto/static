@@ -9,7 +9,16 @@ Version: 2025
 @import url("header.css");
 :root {
   /* Base */
-  --black: #000000; --white: #ffffff; --warm-white: #faf8f7; --gray-900: #333333; --gray-700: #696969; --gray-500: #999999; --gray-300: #dde0e3; --gray-200: #dadbe3; --gray-100: #afb0bb;
+  --black: #000000;
+  --white: #ffffff;
+  --warm-white: #faf8f7;
+  --gray-900: #333333;
+  --gray-700: #696969;
+  --gray-500: #999999;
+  --gray-300: #dde0e3;
+  --gray-200: #dadbe3;
+  --gray-100: #afb0bb;
+  --gray-50: #eeeeee;
 
   /* Accent */
   --bluegray: #4f6367;
@@ -25,7 +34,8 @@ Version: 2025
   --bg-grad: hsla(48, 70%, 78%, 0.1);
 
   /* Selection */
-  --sel-txt: #2b2b2b; --sel-txt-alt: #000000;
+  --sel-txt: #2b2b2b;
+  --sel-txt-alt: #000000;
 }
 
 /* Text Colors 
@@ -88,7 +98,7 @@ a:hover											{ text-decoration: underline; cursor: pointer; }
 h1, h2											{ word-wrap: break-word; line-height: normal; /* font-family: Georgia, Times, "Times New Roman", serif; */ }
 h3											{ font-size: 1.1rem; padding: 15px 0 0.3em; }
 p											{ margin: 0 0 10px; }
-hr											{ border: none; border-bottom: 1px solid #DDE0E3; height: 1px; margin: 3em 0; width: 100%; }
+hr											{ border: none; border-bottom: 1px solid var(--gray-50); height: 1px; margin: 3em 0; width: 100%; }
 blockquote										{ margin: 0 0 21px 0; padding: 5px 0 5px 20px; font: italic 14px/21px Georgia, "Times New Roman", Times, serif; }
 img											{ vertical-align: middle; }
 h1, h2, h3, h4, h5, h6									{ }

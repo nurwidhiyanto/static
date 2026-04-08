@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6									{ }
 
 /* sidebar
 -----------------------------*/
-#sidebar									{ width: 25%; padding: 0 0 0 5%; float: right; z-index: 9999; position: relative; }
+#sidebar									{width: 25%;/* padding: 0 0 0 5%; */float: right;z-index: 9999;position: relative;}
 #sidebar .section .widget							{ padding: 0 0 35px 0; }
 #sidebar .section .widget h2 {
     /* color: #a5a5a5; */

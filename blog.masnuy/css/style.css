@@ -222,8 +222,9 @@ input:focus								{ border-color: #AFB0BB; }
 
 .single .post-content							{ padding: 0 0 0 25%; }
 .single img								{ width: 100%; }
+.single p img								{ max-width: 49%; vertical-align: bottom; }
 .single img.big-img							{ width: calc(100% + 66%); margin-left: -33%; margin-right: -33%; }
-.single .post-content p							{ margin: 0 0 5% 0; padding: ; }
+.single .post-content p							{ margin: 0 0 5% 0; }
 .single .post-labels p							{  }
 
 

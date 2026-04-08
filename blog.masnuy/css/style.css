@@ -224,6 +224,7 @@ input:focus								{ border-color: #AFB0BB; }
 .single .post-meta time,
 .single .post-labels a,
 .single p a								{ display: block; font-size: 100%; line-height: 170%; }
+.single .post-meta .meta-time						{ margin: 0 1em 0 0; }
 .single .post-meta .meta-author						{ display: none; }
 
 .single .post-content							{ padding: 0 0 0 25%; }
@@ -232,7 +233,10 @@ input:focus								{ border-color: #AFB0BB; }
 .single img								{ width: 100%; }
 .single p img								{ max-width: 49%; vertical-align: bottom; }
 .single img.big-img							{ width: calc(100% + 66%); margin-left: -33%; margin-right: -33%; }
-.single .post-content p							{ margin: 0 0 2em 0; }
+.single .post-content p {
+    margin: 0 0 2em 0;
+    padding: 0 10%;
+}
 .single .post-labels p							{  }
 
 

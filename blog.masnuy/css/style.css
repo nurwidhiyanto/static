@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6									{ }
 #navigation:after,
 #wmain-menu:before,
 #wmain-menu:after									{ display: table; content: " "; clear: both; }
+.hidden											{ display: none; }
 
 /* css Uyeee! ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #wrapper, #content								{margin: 3em auto;padding: 2% 4%;width: 92%;max-width: 1200px;}

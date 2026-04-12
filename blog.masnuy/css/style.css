@@ -6,7 +6,6 @@ url: http://blog.masnuy.com
 Version: 2025
 
 */
-@import url("header.css");
 :root {
   /* Base */
   --black: #000000;
@@ -91,7 +90,7 @@ button, input[type="submit"],input[type="button"]					{ border: none; }
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 *											{ margin: 0; padding: 0; }
 body:before										{ content: ""; position: absolute; background: url(../images/color-bar.png) center top; top: 0; left: 0; width: 100%; height: 5px; z-index: 100; }
-body											{ line-height: 1em; font: 14px/130% "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif; }
+body											{font: 14px/130% "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;display: flex;flex-direction: column;min-height: 100vh;height: 100%;}
 ul											{ list-style: none; }
 a											{ text-decoration: none; outline: none; }
 a:hover											{ text-decoration: underline; cursor: pointer; }
@@ -112,7 +111,7 @@ h1, h2, h3, h4, h5, h6									{ }
 #content, #menu-wrapper, .footerCopy, .single, #page, #h-title, #footer,
 #single .photo .post-image, #single .photo .caption					{ margin: 0 auto; }
 #content, #menu-wrapper, .footerCopy							{ width: 92%; max-width: 1200px; }
-#content										{ padding: 2% 4%; margin: 3em auto; }
+#content										{padding: 2% 4%;margin: 3em auto;flex: 1;}
 #menu-wrapper, .footerCopy								{ padding: 3em 4%; }
 .posts											{ width: 70%; float: left;}
 
@@ -128,8 +127,11 @@ h1, h2, h3, h4, h5, h6									{ }
 
 /* menu
 -----------------------------*/
+#main-menu										{ background-color: rgba(247, 242, 238, 1); }
+#wmain-menu										{ padding: 0; width: 100%; }
+
 #navigation										{ float: left; font-family: 'Hind', sans-serif; }
-#navigation li										{ float: left; line-height: 60px; margin-right:; }
+#navigation li										{ float: left; line-height: 60px; }
 #navigation li:after									{ content: "/"; color: #CCC; }
 #navigation li:last-child:after								{ content: " "; }
 #navigation li a									{ font-weight: 700; padding: 20px; }
@@ -314,5 +316,6 @@ h3#respond								{ text-align: center; margin: 0 0 10px 0; }
 
 /* footer
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-#footer									{ width: 100%; }
-#copy p									{ text-align: center; }
+#footer									{ background-color: rgba(247, 242, 238, 1); width: 100%; }
+.footerCopy								{ padding: 1em 4%; }
+.footerCopy p								{ margin: 0;color: var(--gray-500); }

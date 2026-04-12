@@ -1,15 +1,50 @@
+/* --- LIBRE BASKERVILLE --- */
 @font-face {
-    font-family: EpicRide;
-    src: url("../fonts/epicRide.ttf") format("truetype");
+  font-family: 'Libre Baskerville';
+  src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+/* Montserrat Bold */
 @font-face {
-    font-family: KabutHitam;
-    src: url("../fonts/KabutHitam.ttf") format("truetype");
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
+
+/* --- THE POLY GROUP (Same name, different styles) --- */
+@font-face {
+  font-family: 'Poly';
+  src: url('../fonts/Poly-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poly';
+  src: url('../fonts/Poly-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* --- THE UNIQUE FONTS (Each gets its own name) --- */
+@font-face {
+  font-family: 'EpicRide';
+  src: url("../fonts/epicRide.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'KabutHitam';
+  src: url("../fonts/KabutHitam.ttf") format("truetype");
+}
+
 @font-face {
   font-family: 'hw1';
   src: url('../fonts/hw1.woff2') format('woff2');
 }
+
 @font-face {
   font-family: 'caveatBold';
   src: url('../fonts/caveatBold.ttf') format("truetype");

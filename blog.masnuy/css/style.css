@@ -6,6 +6,7 @@ url: http://blog.masnuy.com
 Version: 2025
 
 */
+@import url("fonts.css");
 :root {
   /* Base */
   --black: #000000;
@@ -139,7 +140,7 @@ h1, h2, h3, h4, h5, h6									{ }
 .logo											{ font-size: 2em; line-height: 60px; margin: 0 3% 0 0; float: left; font-family: 'Montserrat', sans-serif; }
 .logo a											{ color: #333; }
 .logo a:hover										{ text-decoration: none; }
-.logo span										{/* opacity: 0.2; */font-weight: 200;}
+.logo span										{opacity: 0.3;font-weight: 200;}
 .search-top										{ float: right !important; display: none !important; }
 .search-top input									{ width: 90%; padding: 5%; border-radius: 3px; border: none; background: rgba(255,255,255,.1); }
 .search-top input:focus									{ border-color: none; outline: none; outline-color: none; outline-style: none; outline-width: none; }
@@ -233,7 +234,7 @@ input:focus								{ border-color: #AFB0BB; }
 .single .post-image							{ display: none; width: 100%; }
 .single .post-image img							{ width: calc(100% + 26.7%); width: calc(100% + 20%); margin-left: 0; }
 .single .post-head							{ margin: 0; }
-.single .post-title							{ padding: 0 0 5% 0; }
+.single .post-title							{padding: 0 0 5% 0;font-family: 'Poly', serif;font-weight: bold !important;}
 
 /* meta -------------*/
 .single .post-meta							{ position: absolute; line-height: 230%; text-align: left; }
